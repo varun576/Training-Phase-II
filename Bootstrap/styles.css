@@ -1,0 +1,7 @@
+.bg-danger{
+     color:blue !important;
+}
+.container-sm{
+    border: 2px dotted red;
+    padding-left: 50px;
+}

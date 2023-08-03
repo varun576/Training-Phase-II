@@ -1,0 +1,19 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-bottom: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
