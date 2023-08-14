@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v7.0": {},
+    ".NETFramework,Version=v7.0/win7-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\varun.l\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\varun.l\\Downloads\\080501nitish Phase-II-Training main C%23-Practice%20programs%20\\C#\\Practice programs\\Exception Handling\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\varun.l\\Downloads\\080501nitish Phase-II-Training main C%23-Practice%20programs%20\\C#\\Practice programs\\Exception Handling\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\varun.l\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\varun.l\\Downloads\\080501nitish Phase-II-Training main C%23-Practice%20programs%20\\C#\\Practice programs\\Exception Handling\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\varun.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net70"
+      ],
+      "sources": {
+        "https://www.nuget.org/api/v2/": {},
+        "https://www.nuget.org/packages": {}
+      },
+      "frameworks": {
+        "net70": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net70": {}
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
