@@ -1,0 +1,32 @@
+
+<p>servers works!</p>
+<p>{{'server with number'}}{{serverId}} is currently {{serverStatus}}</p>
+
+<p>{{'server with number'}}{{getServerId()}} is currently {{getserverstatus()}}</p>
+
+
+<label>Server Name:</label>
+<!-- <input type="text"
+ class="form-control" 
+ <!--(input)="onserverNameEntry($event)"><br> -->
+ <input type="text"
+ [(ngModel)]="ServerName">
+ <br><br>
+
+<button class = "btn btn-danger" 
+[disabled]="!addNewServer"
+(click)="onServerCreation()">Add new server</button>
+
+<p *ngFor="let server of serverList">{{server}}</p>
+<p *ngIf="serverCreated=='Created';else beforeServer">{{serverCreated}}</p>
+
+<ng-template #beforeServer>
+    <p>{{serverCreated}}</p>
+</ng-template>
+<p>{{addNewServer}}</p>
+<p [innerText]="addNewServer">with prorperty binding</p>
+
+<p *ngFor="let num of serverNumbers;"
+[ngStyle]="{'background-color': getcolor() }"
+[ngClass]="{online:serverStatus=='online'}">
+{{getServerId}} is currently {{getserverstatus}}</p>
