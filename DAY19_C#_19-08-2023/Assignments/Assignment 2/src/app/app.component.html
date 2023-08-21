@@ -1,0 +1,8 @@
+<div>
+  <label>Username : </label>
+  <input type="text" [(ngModel)]="Username" /><br>
+  <p>Typed Username =  {{Username}}</p>
+  <button type="button"  [disabled]="buttonDisable()"
+  [ngStyle]="getButtonStyle()"  
+  (click)="ResetUsername()">Reset</button>
+</div>
