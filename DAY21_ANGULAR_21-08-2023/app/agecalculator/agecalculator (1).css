@@ -1,0 +1,11 @@
+.calculator-container {
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 

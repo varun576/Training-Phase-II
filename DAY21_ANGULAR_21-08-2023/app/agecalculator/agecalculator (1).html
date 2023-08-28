@@ -1,0 +1,25 @@
+<div class="calculator-container">
+  <h2>Mortgage Calculator</h2>
+   
+    <label for="purchasePrice">Purchase Price:</label><br>
+    <input type="number" [(ngModel)]="purchasePrice" id="purchasePrice" placeholder="purchasePrice" /><br><br>
+
+   
+    <label for="downPayment">Down Payment:</label><br>
+    <input type="number" [(ngModel)]="downPayment" id="downPayment" placeholder="downPayment" /><br><br>
+
+   
+    <label for="repaymentTime">Repayment Time (years):</label><br>
+    <input type="number" [(ngModel)]="repaymentTime" id="repaymentTime" placeholder=""/><br><br>
+
+   
+    <label for="interestRate">Interest Rate (%):</label><br>
+    <input type="number" [(ngModel)]="interestRate" id="interestRate" /><br><br>
+  </div>
+  <div style="display: flex;align-items: center;justify-content: center;">
+  <button (click)="calculateMortgage()" >Calculate</button><br>
+</div>
+  <div *ngIf="monthlyPayment > 0" class="result">
+    <p>Loan Amount: {{ loanAmount }}</p>
+    <p>Monthly Payment: {{ monthlyPayment }}</p>
+  </div>
